@@ -211,6 +211,7 @@ for byte in msg_secret_list:
 print("The hidden message is => "+msg_decoded)
 #########################################################
 # Export
+# ## 
 print("Export Section \n---------------------------------")
 Image.fromarray(img_matrix_tmp).save(input('Export the Steg. image as file (Enter file name)-> '))
 
